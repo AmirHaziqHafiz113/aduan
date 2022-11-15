@@ -11,7 +11,7 @@
               </span>
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="{{route('profile')}}">Profile</a>
+              <a class="dropdown-item" href="#">Profile</a>
               <br>
               <a class="dropdown-item" href="{{route('logout')}}">Log Out</a>
             </div>

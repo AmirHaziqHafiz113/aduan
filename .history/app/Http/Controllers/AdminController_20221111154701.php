@@ -17,11 +17,4 @@ class AdminController extends Controller
 
         return redirect('/');
     } //end destroy()
-
-    public function Profile(){
-        $id = Auth::user()->id;
-        $adminData = User::find($id);
-        return view('admin.profile',compact('adminData'));
-
-    }// End Method 
 }
